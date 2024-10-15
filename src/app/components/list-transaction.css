@@ -1,0 +1,19 @@
+@media only screen and (max-width: 768px) {
+
+    .buttonNew {
+        margin-top: 25px;
+        margin-right: 25px;
+    }
+
+    .buttonEdit {
+        margin-right: 10px;
+    }
+
+    .panelList {
+        margin-top: 25px;
+    }
+
+    .buttonShowAll {
+        margin-left: 10px;
+    }
+}
