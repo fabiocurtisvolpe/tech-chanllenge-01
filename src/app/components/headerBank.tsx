@@ -27,7 +27,6 @@ class HeaderBank extends React.Component {
             </div>
         )
     }
-
 }
 
 export default HeaderBank;
