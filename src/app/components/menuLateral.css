@@ -44,7 +44,28 @@ hr {
 @media only screen and (max-width: 768px) {
 
     .menu-lateral {
-        display: none;
+        width: 172px;
+        height: 256px;
+
+        position: absolute;
+        top: 8%;
+        transform: translateY(-8%);
     }
+
+    hr {
+        width: 80%;
+        margin-left: 8%;
+        border-width: 1px;
+    }
+
+    .labelInicio {
+        display: block;
+    }
+
+    .labelMenu {
+        display: block;
+    }
+
+
 }
 
