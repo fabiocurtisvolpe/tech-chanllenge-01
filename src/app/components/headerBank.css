@@ -1,10 +1,12 @@
 
 .headerBank {
+    height: 96px;
     display: grid;
     align-items: center;
     grid-template-columns: 5% 85% 5%;
+    border-radius: 1px;
     background-color: #004D61;
-    height: 96px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .buttonMenu {

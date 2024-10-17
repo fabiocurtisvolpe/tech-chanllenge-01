@@ -5,24 +5,40 @@ class MenuLateral extends React.Component {
 
     render() {
         return (
-            <div className="panel panel-default menu-lateral">
+            <div className="panel panel-default">
 
-                <div className="center">
+                <div className="panel-body menuLateral">
 
-                    <button className="btn buttonClose" title="Fechar">X</button>
+                    <div className="row">
+                        <div className="col-md-12">
+                            <label className="text-center labelInicio">Início</label>
+                            <hr className="hrInicio"/>
+                        </div>
+                    </div>
 
-                    <label className="labelInicio">Inicio</label>
-                    <hr className="hrInicio"/>
+                    <div className="row">
+                        <div className="col-md-12">
+                            <label className="text-center labelMenu">Transferências</label>
+                            <hr />
+                        </div>
+                    </div>
 
-                    <label className="labelMenu">Transferências</label>
-                    <hr/>
+                    <div className="row">
+                        <div className="col-md-12">
+                            <label className="text-center labelMenu">Investimentos</label>
+                            <hr/>
+                        </div>
+                    </div>
 
-                    <label className="labelMenu">Investimentos</label>
-                    <hr/>
-
-                    <label className="labelMenu">Outros Serviços</label>
+                    <div className="row">
+                        <div className="col-md-12">
+                            <label className="text-center labelMenu">Outros Serviços</label>
+                            <hr/>
+                        </div>
+                    </div>
 
                 </div>
+
             </div>
         )
     }

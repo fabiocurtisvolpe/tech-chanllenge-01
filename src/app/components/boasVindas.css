@@ -1,0 +1,9 @@
+
+.boasVindas {
+    width: 690px;
+    height: 402px;
+    margin-top: 50px;
+    border-radius: 8px;
+    background-color: #004D61;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
