@@ -9,26 +9,30 @@
     background: #f5f5f5;
 }
 
+.buttonClose {
+    display: none;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+}
+
 label {
     font-family: Inter, serif;
     cursor: pointer;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .labelInicio {
     margin-top: 20px;
     color: #47A138;
-    font-size: 16px;
-    font-weight: bold;
 }
 
 .labelMenu {
     margin-top: 10px;
     color: black;
-    font-size: 16px;
-    font-weight: bold;
 }
 
 hr {
@@ -46,26 +50,35 @@ hr {
     .menu-lateral {
         width: 172px;
         height: 256px;
+        position: page;
+        transform: translate(-1%, -1%);
+    }
 
-        position: absolute;
-        top: 8%;
-        transform: translateY(-8%);
+    .buttonClose {
+        display: block;
+        margin-left: auto;
+        margin-right: 10px;
+        margin-top: 25px;
+        position: static;
+        color: #47A138;
     }
 
     hr {
         width: 80%;
         margin-left: 8%;
         border-width: 1px;
+        position: static;
+    }
+
+    label {
+        display: block;
+        position: static;
     }
 
     .labelInicio {
-        display: block;
+        margin-top: 10px;
+        color: red;
     }
-
-    .labelMenu {
-        display: block;
-    }
-
 
 }
 

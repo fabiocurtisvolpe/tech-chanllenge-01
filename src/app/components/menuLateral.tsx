@@ -7,16 +7,22 @@ class MenuLateral extends React.Component {
         return (
             <div className="panel panel-default menu-lateral">
 
-                <label className="labelInicio">Inicio</label>
-                <hr className="hrInicio"/>
+                <div className="center">
 
-                <label className="labelMenu">Transferências</label>
-                <hr/>
+                    <button className="btn buttonClose" title="Fechar">X</button>
 
-                <label className="labelMenu">Investimentos</label>
-                <hr/>
+                    <label className="labelInicio">Inicio</label>
+                    <hr className="hrInicio"/>
 
-                <label className="labelMenu">Outros Serviços</label>
+                    <label className="labelMenu">Transferências</label>
+                    <hr/>
+
+                    <label className="labelMenu">Investimentos</label>
+                    <hr/>
+
+                    <label className="labelMenu">Outros Serviços</label>
+
+                </div>
             </div>
         )
     }
