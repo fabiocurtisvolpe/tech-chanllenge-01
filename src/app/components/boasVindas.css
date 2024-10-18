@@ -1,9 +1,34 @@
 
 .boasVindas {
-    width: 690px;
+    width: 95%;
     height: 402px;
-    margin-top: 50px;
+    margin-top: 30px;
     border-radius: 8px;
     background-color: #004D61;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    font-family: Inter, serif;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.labelNome {
+    margin-top: 24px;
+    margin-left: 24px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.labelHoje {
+    margin-top: 10px;
+    margin-left: 24px;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.labelSaldo {
+    font-weight: bold;
+    font-size: 20px;
 }

@@ -17,7 +17,7 @@ class HeaderBank extends React.Component {
         return (
             <div className="headerBank">
 
-                <button id="myButton" type="button" className="buttonMenu">
+                <button id="myButton" className="buttonMenu">
                     <i className="bi bi-list"></i>
                 </button>
 

@@ -4,7 +4,7 @@ import React from "react";
 import HeaderBank from "@/app/components/headerBank";
 import MenuLateral from "@/app/components/menuLateral";
 import BoasVindas from "@/app/components/boasVindas";
-import Extrado from "@/app/components/extrado";
+import Extrato from "@/app/components/extrato";
 import NovaTransacao from "@/app/components/novaTransacao";
 
 
@@ -14,15 +14,15 @@ class HomePage extends React.Component {
         return (
             <div>
                 <HeaderBank></HeaderBank>
-                <div className="container">
+                <div className="container-fluid">
 
                     <div className="row">
 
-                        <div className="col-sm-3 text-center">
+                        <div className="col-md-2 mx-auto">
                             <MenuLateral></MenuLateral>
                         </div>
 
-                        <div className="col-sm-6 text-center">
+                        <div className="col-md-7 mx-auto">
 
                             <div className="row">
                                 <BoasVindas></BoasVindas>
@@ -34,8 +34,8 @@ class HomePage extends React.Component {
 
                         </div>
 
-                        <div className="col-sm-3 text-center">
-
+                        <div className="col-md-3 mx-auto">
+                            <Extrato></Extrato>
                         </div>
 
                     </div>
