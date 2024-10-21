@@ -56,7 +56,77 @@ class Extrato extends React.Component {
 
                             <div className="row">
                                 <div className="col-md-12">
-                                    <hr/>
+                                    <hr className="hrExtrato" />
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div className="row rowExtrato">
+
+                        <div className="col-md-12">
+
+                            <div className="row">
+                                <div className="col-md-6">
+                                    <label className="labelMes">Novembro</label>
+                                </div>
+                            </div>
+
+                            <div className="row">
+                                <div className="col-md-6">
+                                    <label className="labelTipo">Deposito</label>
+                                </div>
+                                <div className="col-md-6">
+                                    <label className="labelData">21/10/2024</label>
+                                </div>
+                            </div>
+
+                            <div className="row">
+                                <div className="col-md-12">
+                                    <label className="labelValorExtrato">Valor</label>
+                                </div>
+                            </div>
+
+                            <div className="row">
+                                <div className="col-md-12">
+                                    <hr className="hrExtrato"/>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div className="row rowExtrato">
+
+                        <div className="col-md-12">
+
+                            <div className="row">
+                                <div className="col-md-6">
+                                    <label className="labelMes">Novembro</label>
+                                </div>
+                            </div>
+
+                            <div className="row">
+                                <div className="col-md-6">
+                                    <label className="labelTipo">Deposito</label>
+                                </div>
+                                <div className="col-md-6">
+                                    <label className="labelData">21/10/2024</label>
+                                </div>
+                            </div>
+
+                            <div className="row">
+                                <div className="col-md-12">
+                                    <label className="labelValorExtrato">Valor</label>
+                                </div>
+                            </div>
+
+                            <div className="row">
+                                <div className="col-md-12">
+                                    <hr className="hrExtrato"/>
                                 </div>
                             </div>
 
