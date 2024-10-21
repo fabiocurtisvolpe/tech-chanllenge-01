@@ -5,10 +5,11 @@ class BoasVindas extends React.Component {
 
     private exibirSaldo: boolean = false;
 
-    private classExibirSaldo: string = "bi bi-eye-slash-fill";
-    private classBorrado: string = "blurred-text";
+    private classExibirSaldo: string = "bi bi-eye-slash-fill btnSaldo";
+    private classBorrado: string = "blurred-text labelValor";
 
     private saldo: number = 0;
+    private textSaldo: string = "";
 
     constructor(props: any) {
         super(props);
@@ -35,34 +36,38 @@ class BoasVindas extends React.Component {
 
                             <div className="row">
 
-                                <div className="col-md-6">
+                                <div className="col-md-2 divSaldo">
                                     <label className="labelSaldo">Saldo</label>
                                 </div>
 
-                                <div className="col-md-6">
-                                    <button type="button" className="btn btn-outline-secondary btn-sm m-lg-2"
-                                            onClick={this.visualizarSaldo} title="Visualizar Saldo">
-                                        <i className={this.classExibirSaldo}></i>
-                                    </button>
+                                <div className="col-md-6 divSaldo">
+                                    <span className={this.classExibirSaldo} onClick={this.visualizarSaldo}
+                                          title="Visualizar Saldo"></span>
                                 </div>
 
                             </div>
 
                             <div className="row">
-
+                                <div className="col-md-6">
+                                    <hr className="hrSaldo"/>
+                                </div>
                             </div>
 
                             <div className="row">
-
+                                <div className="col-md-12">
+                                    <label className="labelContaCorrente">Conta Corrente</label>
+                                </div>
                             </div>
 
                             <div className="row">
-
+                                <div className="col-md-12">
+                                    <label className={this.classBorrado}>{this.textSaldo}</label>
+                                </div>
                             </div>
+
 
                         </div>
                     </div>
-
 
                 </div>
 
@@ -72,12 +77,14 @@ class BoasVindas extends React.Component {
 
     private onInit = () => {
         this.exibirSaldo = false;
+
+        this.textSaldo = `R$ ${this.saldo.toFixed(2)}`;
     }
 
     private visualizarSaldo = () => {
         this.exibirSaldo = !this.exibirSaldo;
-        this.classExibirSaldo = this.exibirSaldo ? "bi bi-eye-fill" : "bi bi-eye-slash-fill";
-        this.classBorrado = this.exibirSaldo ? (this.saldo >= 0 ? "text-success" : "text-danger") : "blurred-text";
+        this.classExibirSaldo = this.exibirSaldo ? "bi bi-eye-fill btnSaldo" : "bi bi-eye-slash-fill btnSaldo";
+        this.classBorrado = this.exibirSaldo ? "labelValor" : "blurred-text labelValor";
         this.setState({});
     };
 

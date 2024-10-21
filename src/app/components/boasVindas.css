@@ -32,3 +32,34 @@ label {
     font-weight: bold;
     font-size: 20px;
 }
+
+.divSaldo {
+    margin-top: 120px;
+}
+
+.btnSaldo {
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+    color: #FF5031;
+    cursor: pointer;
+}
+
+.hrSaldo {
+    color: #FF5031;
+    border-width: 3px;
+    opacity: 100;
+    margin-left: 0;
+}
+
+.labelContaCorrente {
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.labelValor {
+    font-weight: normal;
+    opacity: 90%;
+    font-size: 30px;
+}
