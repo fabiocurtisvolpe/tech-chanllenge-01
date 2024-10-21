@@ -20,7 +20,11 @@
     height: 40px;
     margin-top: 25px;
     background-color: #004D61;
-    clip-path: circle(50% at 50% 50%);
+    border-radius: 50%;
+}
+
+.divCirculo:hover {
+    border: 2px solid #FF5031;
 }
 
 .btn {
@@ -29,6 +33,10 @@
     color: white;
     cursor: pointer;
     margin-bottom: 5px;
+}
+
+.btn:hover {
+    color: white;
 }
 
 label {
