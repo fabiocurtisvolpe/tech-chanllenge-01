@@ -8,7 +8,7 @@ class BoasVindas extends React.Component {
     private classExibirSaldo: string = "bi bi-eye-slash-fill btnSaldo";
     private classBorrado: string = "blurred-text labelValor";
 
-    private saldo: number = 0;
+    private saldo: number = 2500;
     private textSaldo: string = "";
 
     constructor(props: any) {
@@ -48,7 +48,7 @@ class BoasVindas extends React.Component {
                             </div>
 
                             <div className="row">
-                                <div className="col-md-6">
+                                <div className="col-md-8">
                                     <hr className="hrSaldo"/>
                                 </div>
                             </div>
@@ -78,7 +78,7 @@ class BoasVindas extends React.Component {
     private onInit = () => {
         this.exibirSaldo = false;
 
-        this.textSaldo = `R$ ${this.saldo.toFixed(2)}`;
+        this.textSaldo = this.formatSaldo(this.saldo);
     }
 
     private visualizarSaldo = () => {
@@ -98,6 +98,14 @@ class BoasVindas extends React.Component {
         const ano = data.getFullYear();
 
         return `${diaSemana}, ${dia}/${mes}/${ano}`;
+    };
+
+    private formatSaldo = (amount: number): string => {
+        amount = amount >= 0 ? amount : (-1) * amount;
+        return amount.toLocaleString('pt-BR', {
+            style: 'currency',
+            currency: 'BRL',
+        });
     };
 }
 
