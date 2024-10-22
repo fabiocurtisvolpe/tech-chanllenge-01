@@ -81,10 +81,18 @@ label {
     margin-top: 35px;
 }
 
-@media (max-width: 768px) { /* Tablet */
-    /* Styles for tablet devices */
+@media (max-width: 768px) {
+    
+    /* Tablet */
+    .extrato {
+        display: none;
+    }
 }
 
-@media (max-width: 480px) { /* Mobile */
-    /* Styles for mobile devices */
+@media (max-width: 480px) {
+
+    /* Mobile */
+    .extrato {
+        display: none;
+    }
 }

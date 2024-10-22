@@ -22,9 +22,9 @@ class BoasVindas extends React.Component {
 
     render() {
         return (
-            <div className="panel panel-default m-lg-4">
+            <div className="panel panel-default m-lg-4 boasVindas">
 
-                <div className="panel-body boasVindas">
+                <div className="panel-body">
 
                     <div className="row">
                         <div className="col-md-6">

@@ -5,9 +5,9 @@ class NovaTransacao extends React.Component {
 
     render() {
         return (
-            <div className="panel panel-default m-lg-4">
+            <div className="panel panel-default m-lg-4 novaTransacao">
 
-                <div className="panel-body novaTransacao">
+                <div className="panel-body">
 
                     <div className="row">
                         <div className="col-md-6">
@@ -18,9 +18,8 @@ class NovaTransacao extends React.Component {
                     <div className="row">
                         <div className="col-md-6">
 
-                            <select className="form-select dropTipoTransacao"
-                                    aria-label="Selecione o Tipo de Transação">
-                                <option selected>Selecione o Tipo de Transação</option>
+                            <select className="form-select dropTipoTransacao" aria-label="Selecione o Tipo de Transação" defaultValue={'0'}>
+                                <option value="O">Selecione o Tipo de Transação</option>
                                 <option value="D">Depósito</option>
                                 <option value="P">Pagamento</option>
                                 <option value="S">Saque</option>
@@ -34,7 +33,7 @@ class NovaTransacao extends React.Component {
                         <div className="col-md-4 valor">
                             <label className="labelValorNovaTransacao" htmlFor="valor">Valor R$</label>
                             <input id="valor" name="valor" type="text" className="form-control"
-                                   placeholder="R$ 0,00"/>
+                                placeholder="R$ 0,00" />
                         </div>
                     </div>
 

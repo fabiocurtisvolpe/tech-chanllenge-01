@@ -5,14 +5,14 @@ class MenuLateral extends React.Component {
 
     render() {
         return (
-            <div className="panel panel-default text-center m-lg-4">
+            <div className="panel panel-default text-center m-lg-4 menuLateral">
 
-                <div className="panel-body menuLateral">
+                <div className="panel-body">
 
                     <div className="row">
                         <div className="col-md-12">
                             <label className="labelInicio">Início</label>
-                            <hr className="hrInicio"/>
+                            <hr className="hrInicio" />
                         </div>
                     </div>
 
@@ -26,14 +26,14 @@ class MenuLateral extends React.Component {
                     <div className="row">
                         <div className="col-md-12">
                             <label className="labelMenu">Investimentos</label>
-                            <hr/>
+                            <hr />
                         </div>
                     </div>
 
                     <div className="row">
                         <div className="col-md-12">
                             <label className="labelMenu">Outros Serviços</label>
-                            <hr/>
+                            <hr />
                         </div>
                     </div>
 

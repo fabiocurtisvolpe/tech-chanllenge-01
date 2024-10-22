@@ -37,13 +37,10 @@ i {
     color: #FF5031;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) { /* Tablet */
 
-    .buttonMenu {
-        display: block;
-    }
+}
 
-    label {
-        display: none;
-    }
+@media (max-width: 480px) { /* Mobile */
+
 }

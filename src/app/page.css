@@ -1,5 +1,33 @@
 
-.center {
-    width: 100%;
-    text-align: center;
+.isTablet {
+    display: none;
+}
+
+.isMobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    /* Tablet */
+
+    .isDesk {
+        display: none;
+    }
+
+    .isMobile {
+        display: none;
+    }
+
+}
+
+@media (max-width: 480px) {
+    /* Mobile */
+
+    .isDesk {
+        display: none;
+    }
+
+    .isTablet {
+        display: none;
+    }
 }

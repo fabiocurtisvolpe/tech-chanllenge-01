@@ -1,5 +1,7 @@
 "use client";
 
+import "./page.css"
+
 import React from "react";
 import HeaderBank from "@/app/components/headerBank";
 import MenuLateral from "@/app/components/menuLateral";
@@ -14,7 +16,7 @@ class HomePage extends React.Component {
         return (
             <div>
                 <HeaderBank></HeaderBank>
-                <div className="container-fluid">
+                <div className="container-fluid isDesk">
 
                     <div className="row">
 
@@ -39,6 +41,30 @@ class HomePage extends React.Component {
                         </div>
 
                     </div>
+
+                </div>
+
+                <div className="container-fluid isTablet">
+
+                    <div className="row">
+
+                    </div>
+
+                    <div className="row">
+
+                    </div>
+
+                    <div className="row">
+
+                    </div>
+
+                    <div className="row">
+
+                    </div>
+
+                </div>
+
+                <div className="container-fluid isMobile">
 
                 </div>
 

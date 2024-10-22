@@ -5,9 +5,9 @@ class Extrato extends React.Component {
 
     render() {
         return (
-            <div className="panel panel-default">
+            <div className="panel panel-default extrato">
 
-                <div className="panel-body extrato">
+                <div className="panel-body">
 
                     <div className="row">
                         <div className="col-md-6">
