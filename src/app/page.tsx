@@ -10,6 +10,7 @@ import Extrato from "@/app/components/extrato";
 import NovaTransacao from "@/app/components/novaTransacao";
 import MenuTablet from "@/app/components/tablet/menuTablet";
 import BoasVindasTablet from "@/app/components/tablet/boasVindasTablet";
+import NovaTransacaoTablet from "@/app/components/tablet/novaTransacaoTablet";
 
 
 class HomePage extends React.Component {
@@ -62,11 +63,15 @@ class HomePage extends React.Component {
                     </div>
 
                     <div className="row">
-
+                        <div className="col-md-12 mx-auto">
+                            <NovaTransacaoTablet></NovaTransacaoTablet>
+                        </div>
                     </div>
 
                     <div className="row">
+                        <div className="col-md-12 mx-auto">
 
+                        </div>
                     </div>
 
                 </div>
