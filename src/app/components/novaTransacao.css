@@ -45,19 +45,3 @@
 .dropTipoTransacao {
     margin-left: 25px;
 }
-
-@media (max-width: 768px) {
-
-    /* Tablet */
-    .novaTransacao {
-        display: none;
-    }
-}
-
-@media (max-width: 480px) {
-
-    /* Mobile */
-    .novaTransacao {
-        display: none;
-    }
-}

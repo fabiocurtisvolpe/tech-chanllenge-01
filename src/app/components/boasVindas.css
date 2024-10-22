@@ -62,20 +62,3 @@ label {
     opacity: 90%;
     font-size: 30px;
 }
-
-@media (max-width: 768px) {
-    /* Tablet */
-
-    .boasVindas {
-        display: none;
-    }
-
-}
-
-@media (max-width: 480px) {
-
-    /* Mobile */
-    .boasVindas {
-        display: none;
-    }
-}

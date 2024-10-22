@@ -8,6 +8,8 @@ import MenuLateral from "@/app/components/menuLateral";
 import BoasVindas from "@/app/components/boasVindas";
 import Extrato from "@/app/components/extrato";
 import NovaTransacao from "@/app/components/novaTransacao";
+import MenuTablet from "@/app/components/tablet/menuTablet";
+import BoasVindasTablet from "@/app/components/tablet/boasVindasTablet";
 
 
 class HomePage extends React.Component {
@@ -47,11 +49,16 @@ class HomePage extends React.Component {
                 <div className="container-fluid isTablet">
 
                     <div className="row">
+                        <div className="col-md-8 mx-auto">
+                            <MenuTablet></MenuTablet>
+                        </div>
 
                     </div>
 
                     <div className="row">
-
+                        <div className="col-md-12 mx-auto">
+                            <BoasVindasTablet></BoasVindasTablet>
+                        </div>
                     </div>
 
                     <div className="row">

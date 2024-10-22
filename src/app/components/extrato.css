@@ -80,19 +80,3 @@ label {
 .rowExtrato {
     margin-top: 35px;
 }
-
-@media (max-width: 768px) {
-    
-    /* Tablet */
-    .extrato {
-        display: none;
-    }
-}
-
-@media (max-width: 480px) {
-
-    /* Mobile */
-    .extrato {
-        display: none;
-    }
-}
