@@ -27,15 +27,14 @@
     border: 2px solid #FF5031;
 }
 
-.btn {
+.btnExtrato {
     width: 20px;
     height: 20px;
     color: white;
     cursor: pointer;
-    margin-bottom: 5px;
 }
 
-.btn:hover {
+.btnExtrato:hover {
     color: white;
 }
 

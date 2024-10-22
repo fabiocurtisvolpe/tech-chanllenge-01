@@ -24,8 +24,9 @@
 
     .btnConcluirTransacao {
         margin-left: 25px;
-        width: 100%;
+        width: 250px;
         height: 45px;
+        color: white;
         background-color: #004D61;
     }
 
