@@ -16,7 +16,18 @@ class NovaTransacao extends React.Component {
                     </div>
 
                     <div className="row">
-                        <div className="col-md-6"></div>
+                        <div className="col-md-6">
+
+                            <select className="form-select dropTipoTransacao"
+                                    aria-label="Selecione o Tipo de Transação">
+                                <option selected>Selecione o Tipo de Transação</option>
+                                <option value="D">Depósito</option>
+                                <option value="P">Pagamento</option>
+                                <option value="S">Saque</option>
+                                <option value="T">Transferência</option>
+                            </select>
+
+                        </div>
                     </div>
 
                     <div className="row">
