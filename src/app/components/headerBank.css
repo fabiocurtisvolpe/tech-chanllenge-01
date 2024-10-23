@@ -21,14 +21,12 @@ label {
     grid-column: 2;
     margin-right: 25px;
     display: inline-block;
-
     text-align: right;
     color: white;
     font-size: 18px;
 }
 
 i {
-    grid-column: 3;
     display: block;
     background-color: transparent;
     border: 1px;
@@ -37,10 +35,28 @@ i {
     color: #FF5031;
 }
 
-@media (max-width: 768px) { /* Tablet */
-
+.iHeaderPerson {
+    grid-column: 3;
 }
 
-@media (max-width: 480px) { /* Mobile */
+.labelHeader {
+    display: block;
+}
 
+@media (max-width: 480px) {
+    /* Mobile */
+
+    .labelHeader {
+        display: none;
+    }
+
+    .buttonMenu {
+        display: block;
+    }
+
+    .headerBank {
+        align-items: center;
+        grid-template-columns: 5% 80% 5%;
+        border-radius: 1px;
+    }
 }

@@ -17,14 +17,14 @@ class ExtratoTablet extends React.Component {
                         <div className="col-md-2">
 
                             <div className="divCirculo">
-                                <span className="bi bi-pencil-fill btnExtrato"></span>
+                                <span className="bi bi-pencil-fill btnExtratoTablet"></span>
                             </div>
 
                         </div>
 
                         <div className="col-md-2">
                             <div className="divCirculo">
-                                <span className="bi bi-trash3-fill btnExtrato"></span>
+                                <span className="bi bi-trash3-fill btnExtratoTablet"></span>
                             </div>
                         </div>
                     </div>

@@ -12,6 +12,7 @@ import MenuTablet from "@/app/components/tablet/menuTablet";
 import BoasVindasTablet from "@/app/components/tablet/boasVindasTablet";
 import NovaTransacaoTablet from "@/app/components/tablet/novaTransacaoTablet";
 import ExtratoTablet from "@/app/components/tablet/extratoTablet";
+import BoasVindasMobile from "@/app/components/mobile/boasVindasMobile";
 
 
 class HomePage extends React.Component {
@@ -78,6 +79,24 @@ class HomePage extends React.Component {
                 </div>
 
                 <div className="container-fluid isMobile">
+
+                    <div className="row">
+                        <div className="col-md-12 mx-auto">
+                            <BoasVindasMobile></BoasVindasMobile>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <div className="col-md-12 mx-auto">
+                            <NovaTransacaoTablet></NovaTransacaoTablet>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <div className="col-md-12 mx-auto">
+                            <ExtratoTablet></ExtratoTablet>
+                        </div>
+                    </div>
 
                 </div>
 

@@ -7,6 +7,12 @@
     display: none;
 }
 
+label {
+    font-family: Inter, serif;
+    margin-bottom: 5px;
+    color: white;
+}
+
 @media (max-width: 768px) {
     /* Tablet */
 
@@ -25,7 +31,6 @@
     .isMobile {
         display: none;
     }
-
 }
 
 @media (max-width: 480px) {
@@ -37,5 +42,9 @@
 
     .isTablet {
         display: none;
+    }
+
+    .isMobile {
+        display: block;
     }
 }

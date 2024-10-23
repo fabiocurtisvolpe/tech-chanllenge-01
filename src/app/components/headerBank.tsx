@@ -17,8 +17,12 @@ class HeaderBank extends React.Component {
         return (
             <div className="headerBank">
 
-                <label>Olá, Fabio Curtis Volpe</label>
-                <i className="bi bi-person-circle"></i>
+                <button id="myButton" className="buttonMenu">
+                    <i className="bi bi-list"></i>
+                </button>
+
+                <label className="labelHeader">Olá, Fabio Curtis Volpe</label>
+                <i className="bi bi-person-circle iHeaderPerson"></i>
 
             </div>
         )

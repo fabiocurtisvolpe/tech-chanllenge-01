@@ -1,7 +1,7 @@
-import "./boasVindasTablet.css";
+import "./boasVindasMobile.css";
 import React from "react";
 
-class BoasVindasTablet extends React.Component {
+class BoasVindasMobile extends React.Component {
 
     private exibirSaldo: boolean = false;
 
@@ -27,49 +27,40 @@ class BoasVindasTablet extends React.Component {
                 <div className="panel-body">
 
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-md-12">
                             <label className="labelNome">Olá, Fábio! :)</label>
                             <label className="labelHoje">{this.hoje()}</label>
-
-                            <div className="ilustracao"></div>
-                        </div>
-
-                        <div className="col-md-6">
-
-                            <div className="row">
-
-                                <div className="col-md-2 divSaldo">
-                                    <label className="labelSaldo">Saldo</label>
-                                </div>
-
-                                <div className="col-md-6 divSaldo">
-                                    <span className={this.classExibirSaldo} onClick={this.visualizarSaldo}
-                                          title="Visualizar Saldo"></span>
-                                </div>
-
-                            </div>
-
-                            <div className="row">
-                                <div className="col-md-8">
-                                    <hr className="hrSaldo"/>
-                                </div>
-                            </div>
-
-                            <div className="row">
-                                <div className="col-md-12">
-                                    <label className="labelContaCorrente">Conta Corrente</label>
-                                </div>
-                            </div>
-
-                            <div className="row">
-                                <div className="col-md-12">
-                                    <label className={this.classBorrado}>{this.textSaldo}</label>
-                                </div>
-                            </div>
-
-
                         </div>
                     </div>
+
+                    <div className="row">
+                        <div className="col-md-12 divSaldo">
+                            <label className="labelSaldo">Saldo</label>
+                            <span className={this.classExibirSaldo} onClick={this.visualizarSaldo}
+                                  title="Visualizar Saldo"></span>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <div className="col-md-8">
+                            <hr className="hrSaldo"/>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <div className="col-md-12 divContaCorrente">
+                            <label className="labelContaCorrente">Conta Corrente</label>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <div className="col-md-12 divTextSaldo">
+                            <label className={this.classBorrado}>{this.textSaldo}</label>
+                        </div>
+                    </div>
+
+                    <div className="ilustracao"></div>
+
 
                 </div>
 
@@ -111,4 +102,4 @@ class BoasVindasTablet extends React.Component {
     };
 }
 
-export default BoasVindasTablet;
+export default BoasVindasMobile;

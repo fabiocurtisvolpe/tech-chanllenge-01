@@ -34,14 +34,17 @@
         border: 2px solid #FF5031;
     }
 
-    .btnExtrato {
-        width: 20px;
-        height: 20px;
+    .btnExtratoTablet {
+        position: absolute;
+        width: 25px;
+        height: 25px;
         color: white;
         cursor: pointer;
+        margin-left: 12px;
+        margin-top: 7px;
     }
 
-    .btnExtrato:hover {
+    .btnExtratoTablet:hover {
         color: white;
     }
 
