@@ -6,27 +6,17 @@ class ExtratoMobile extends React.Component {
         return (
             <div className="panel panel-default extrato">
 
-                <div className="panel-body extratoBody">
+                <div className="panel-body ">
 
-                    <div className="row">
-                        <div className="col-md-6">
-                            <label className="labelExtrato">Extrato</label>
-                        </div>
-                    </div>
+                    <div className="extratoBody">
+                        <label className="labelExtrato">Extrato</label>
 
-                    <div className="row">
-                        <div className="col-md-2">
-
-                            <div className="divCirculo">
-                                <span className="bi bi-pencil-fill btnExtratoTablet"></span>
-                            </div>
-
+                        <div className="divCirculoEditar">
+                            <span className="bi bi-pencil-fill btnExtrato"></span>
                         </div>
 
-                        <div className="col-md-2">
-                            <div className="divCirculo">
-                                <span className="bi bi-trash3-fill btnExtratoTablet"></span>
-                            </div>
+                        <div className="divCirculoApagar">
+                            <span className="bi bi-trash3-fill btnExtrato"></span>
                         </div>
                     </div>
 
@@ -42,7 +32,7 @@ class ExtratoMobile extends React.Component {
 
                             <div className="row">
                                 <div className="col-md-6">
-                                <label className="labelTipo">Deposito</label>
+                                    <label className="labelTipo">Deposito</label>
                                 </div>
                                 <div className="col-md-6">
                                     <label className="labelData">21/10/2024</label>
@@ -57,7 +47,42 @@ class ExtratoMobile extends React.Component {
 
                             <div className="row">
                                 <div className="col-md-12">
-                                    <hr className="hrExtrato" />
+                                    <hr className="hrExtrato"/>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div className="row rowExtrato">
+
+                        <div className="col-md-12">
+
+                            <div className="row">
+                                <div className="col-md-6">
+                                    <label className="labelMes">Novembro</label>
+                                </div>
+                            </div>
+
+                            <div className="row">
+                                <div className="col-md-6">
+                                    <label className="labelTipo">Deposito</label>
+                                </div>
+                                <div className="col-md-6">
+                                    <label className="labelData">21/10/2024</label>
+                                </div>
+                            </div>
+
+                            <div className="row">
+                                <div className="col-md-12">
+                                    <label className="labelValorExtrato">Valor</label>
+                                </div>
+                            </div>
+
+                            <div className="row">
+                                <div className="col-md-12">
+                                    <hr className="hrExtrato"/>
                                 </div>
                             </div>
 
@@ -134,6 +159,7 @@ class ExtratoMobile extends React.Component {
                         </div>
 
                     </div>
+
 
                 </div>
 
