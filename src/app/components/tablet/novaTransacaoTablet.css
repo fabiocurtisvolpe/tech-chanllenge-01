@@ -51,3 +51,20 @@
         margin-left: 25px;
     }
 }
+
+@media (max-width: 480px) {
+    /* Mobile */
+
+    .novaTransacao {
+        width: 312px;
+        height: 555px;
+    }
+
+    .dropTipoTransacao {
+        width: 88%;
+    }
+
+    .valor {
+        width: 82%;
+    }
+}
