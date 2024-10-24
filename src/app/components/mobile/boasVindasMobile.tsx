@@ -1,4 +1,3 @@
-import "./boasVindasMobile.css";
 import React from "react";
 
 class BoasVindasMobile extends React.Component {

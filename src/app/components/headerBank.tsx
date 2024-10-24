@@ -1,6 +1,4 @@
-import "./headerBank.css"
 import React from "react";
-
 
 class HeaderBank extends React.Component {
 

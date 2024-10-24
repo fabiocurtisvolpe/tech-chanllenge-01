@@ -1,4 +1,3 @@
-import "./menuLateral.css"
 import React from "react";
 
 class MenuLateral extends React.Component {

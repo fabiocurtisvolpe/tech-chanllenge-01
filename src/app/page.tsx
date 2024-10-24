@@ -1,6 +1,11 @@
 "use client";
 
-import "./page.css"
+import "./page.css";
+import "./css/boasVindas.css";
+import "./css/headerBank.css";
+import "./css/menuLateral.css";
+import "./css/novaTransacao.css";
+import "./css/extrato.css";
 
 import React from "react";
 import HeaderBank from "@/app/components/headerBank";
@@ -11,8 +16,9 @@ import NovaTransacao from "@/app/components/novaTransacao";
 import MenuTablet from "@/app/components/tablet/menuTablet";
 import BoasVindasTablet from "@/app/components/tablet/boasVindasTablet";
 import NovaTransacaoTablet from "@/app/components/tablet/novaTransacaoTablet";
-import ExtratoTablet from "@/app/components/tablet/extratoTablet";
+import ExtratoMobile from "@/app/components/mobile/extratoMobile";
 import BoasVindasMobile from "@/app/components/mobile/boasVindasMobile";
+import ExtratoTablet from "@/app/components/tablet/extratoTablet";
 
 
 class HomePage extends React.Component {
@@ -94,7 +100,7 @@ class HomePage extends React.Component {
 
                     <div className="row">
                         <div className="col-md-12 mx-auto">
-                            <ExtratoTablet></ExtratoTablet>
+                            <ExtratoMobile></ExtratoMobile>
                         </div>
                     </div>
 

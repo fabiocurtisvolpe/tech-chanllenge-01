@@ -1,4 +1,3 @@
-import "./menuTablet.css"
 import React from "react";
 
 class MenuTablet extends React.Component {

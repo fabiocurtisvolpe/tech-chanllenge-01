@@ -1,4 +1,3 @@
-import "./extratoTablet.css"
 import React from "react";
 
 class ExtratoTablet extends React.Component {

@@ -1,4 +1,3 @@
-import "./novaTransacao.css";
 import React from "react";
 
 class NovaTransacao extends React.Component {

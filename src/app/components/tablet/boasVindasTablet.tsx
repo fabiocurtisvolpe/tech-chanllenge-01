@@ -1,4 +1,3 @@
-import "./boasVindasTablet.css";
 import React from "react";
 
 class BoasVindasTablet extends React.Component {

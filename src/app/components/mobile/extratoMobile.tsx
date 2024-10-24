@@ -1,7 +1,6 @@
-import "./extratoTablet.css"
 import React from "react";
 
-class ExtratoTablet extends React.Component {
+class ExtratoMobile extends React.Component {
 
     render() {
         return (
@@ -13,7 +12,9 @@ class ExtratoTablet extends React.Component {
                         <div className="col-md-6">
                             <label className="labelExtrato">Extrato</label>
                         </div>
+                    </div>
 
+                    <div className="row">
                         <div className="col-md-2">
 
                             <div className="divCirculo">
@@ -41,7 +42,7 @@ class ExtratoTablet extends React.Component {
 
                             <div className="row">
                                 <div className="col-md-6">
-                                    <label className="labelTipo">Deposito</label>
+                                <label className="labelTipo">Deposito</label>
                                 </div>
                                 <div className="col-md-6">
                                     <label className="labelData">21/10/2024</label>
@@ -139,7 +140,6 @@ class ExtratoTablet extends React.Component {
             </div>
         )
     }
-
 }
 
-export default ExtratoTablet;
+export default ExtratoMobile;
